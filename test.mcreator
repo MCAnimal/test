@@ -1,0 +1,73 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestDim",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/block/TestDimPortalBlock.java",
+          "src/main/resources/assets/test/models/item/test_dim.json",
+          "src/main/resources/data/test/dimension/test_dim.json",
+          "src/main/resources/assets/test/blockstates/test_dim_portal.json",
+          "src/main/java/net/mcreator/test/world/teleporter/TestDimPortalShape.java",
+          "src/main/java/net/mcreator/test/item/TestDimItem.java",
+          "src/main/resources/assets/test/models/block/test_dim_portal_ns.json",
+          "src/main/java/net/mcreator/test/world/dimension/TestDimDimension.java",
+          "src/main/resources/assets/test/models/block/test_dim_portal_ew.json",
+          "src/main/java/net/mcreator/test/world/teleporter/TestDimTeleporter.java",
+          "src/main/resources/data/test/dimension_type/test_dim.json"
+        ]
+      }
+    },
+    {
+      "name": "TestPlank",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_plank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/test_plank.json",
+          "src/main/resources/assets/test/blockstates/test_plank.json",
+          "src/main/resources/assets/test/models/block/test_plank.json",
+          "src/main/java/net/mcreator/test/block/TestPlankBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.test.test_dim": "Test Dim Portal Igniter",
+      "block.test.test_plank": "Test Plank"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": "1.0.0",
+    "author": "Irvin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

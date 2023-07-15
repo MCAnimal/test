@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:block/riftwoodplank",
+    "up": "test:block/riftwoodplank",
+    "north": "test:block/riftwoodplank",
+    "east": "test:block/riftwoodplank",
+    "south": "test:block/riftwoodplank",
+    "west": "test:block/riftwoodplank",
+    "particle": "test:block/riftwoodplank"
+  },
+  "render_type": "solid"
+}
